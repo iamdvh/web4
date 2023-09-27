@@ -1,0 +1,25 @@
+<form action="/employee" method="post" class="card bg-success p-4">
+<h1 class="text text-danger text-center">Add New Employee</h1>
+Name: <input class="form-control" type="text" name="name" id="">
+<br><br>
+BirthDay: <input  type="date" name="birthday" id="">
+<br><br>
+Gender: <br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gemder" value="female"> Female
+<br><br>
+Position: <br>
+<select name="position" id="">
+    <option value="">Derector</option>
+    <option value="">Manager</option>
+    <option value="">Staff</option>
+    <option value="">Security</option>
+</select>
+<br><br>
+Email: <input class="form-control" type="text" name="email" id="">
+<br><br>
+Introduce:
+<Textarea class="form-control" name="introduce" cols = '20', rows="10"></Textarea>
+<br><br>
+<input class="btn btn-info" type="submit" value="Add">
+</form>

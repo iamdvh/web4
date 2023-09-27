@@ -1,0 +1,19 @@
+<h1>FPT Ha Noi</h1>
+<a href="/">Home</a>
+{{#each member}}
+  <h1 class="h1">{{this}}</h1>
+{{/each}}
+<h1>{{fpt}}</h1>
+<table border ="1 ">
+  <tr>
+    <th>Contry</th>
+    <th>Capital</th>
+  </tr>
+  {{#each Capital}}
+    <tr>
+      <td>{{this.[0]}}</td>
+      <td>{{this.[1]}}</td>
+    </tr>
+  {{/each}}
+
+</table>
